@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--MOSTRA QUE SE TRATA DE UM DOCUMENTO HTML-->
+<html lang="pt-br"> <!--INICIA O CÓDIGO HTML-->
+<head> <!--CRIA A TAG DE METADADOS-->
+    <meta charset="UTF-8"> <!--PADRÃO DE CARACTERES-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--COMPATIBILIDADE COM MAIS NAVEGADORES-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--RESPONSIVIDADE DA PÁGINA-->
+    <link rel="stylesheet" href="style.css"> <!--IMPORTA OS ESTILOS DO ARQUIVO style.css-->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Raleway:wght@300;400&display=swap" rel="stylesheet"> <!-- IMPORTA A FONT DO TEXTO-->
+    <title>Projeto Com JavaScript</title> <!--TÍTULO DA ABA-->
+</head>
+<body> <!--CORPO DA PÁGINA-->
+    <header class="header"> <!--CABEÇALHO DA PÁGINA-->
+        <span class="image"> <!--ARMAZENA O LOGO-->
+            <img src="img/logo-proz.png" alt="logo da proz"> <!--IMAGEM LOGO DA PROZ-->
+        </span>
+        <h1>ACENDA A LÂMPADA</h1> <!--TÍTULO DA PÁGINA-->
+    </header>
+
+    <section class="container"> <!--SEÇÃO QUE SE COMPORTA COMO UM CONTAINER-->
+        <div class="contentLamp"> <!--DIV QUE ARMAZENA AS IMAGENS DA PÁGINA-->
+            <img id="lamp" src="img/apagada.png" alt="Lâmpada"> <!--IMAGEM DA LÂMPADA-->
+            <img id="Corda" src="img/cordaAcesa.png" alt="Corda Apagada"> <!--IMAGEM DA CORDA(interruptor)-->
+        </div>
+
+        <div id="runawayButton"> <!--DIV DO BOTÃO-->
+            <button id="botao">ACENDER!</button> <!--CRIAÇÃO DO BOTÃO-->
+        </div> 
+    </section>
+
+    <footer class="footer"> <!--RODAPÉ DA PÁGINA-->
+        <p> <!--PARÁGRAFO COMO COPYRIGHT DA PÁGINA-->
+            Todos os direitos reservados. SystemZ Copyright ©
+        </p>
+    </footer>
+    <script src="script.js"></script> <!--IMPORTA AS FUNÇÕES E PARÂMETROS DO ARQUIVO script.js-->
+</body>
+</html>
